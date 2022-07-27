@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: url(img/manzara.jpg);
+    height:100vh;
+    background-size: 100% 100%;
+}
+
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(138,51,36,0.6 );
+
+}
+.navbar ul{
+    float: right;
+    margin-right:20px ;
+
+}
+.navbar .logo{
+
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.png{
+    width: 50px;
+    margin-top:10px ;
+    margin-left: 30px;
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #f3f3f3;
+
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px 3px;
+    line-height: 80px;
+    
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold ;
+
+}
+
+.navbar ul li a.anasayfa,
+.navbar ul li a:hover{
+    background: #ff6e00;
+    border-radius: 2px;
+
+}
+
+.container .center{
+    
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 175px;
+
+}
+
+.center h1{
+    color: blanchedalmond;
+}
+
+.center .buttons button{
+    background-color:red;
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    margin:15px;
+    color: bisque;
+
+}
